@@ -121,6 +121,8 @@ add_action( 'widgets_init', 'gulp_wordpress_widgets_init' );
  */
 function gulp_wordpress_scripts() {
 	wp_enqueue_style( 'gulp-wordpress-style', get_stylesheet_uri() );
+	/* ADDED BY MK FOR GULP TESTING */
+	 wp_enqueue_script( 'gulp-wordpress-javascript', get_template_directory_uri() . '/js/app.min.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'gulp-wordpress-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -158,4 +160,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
