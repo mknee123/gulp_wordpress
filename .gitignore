@@ -38,3 +38,4 @@ node_modules
 ##########
 /README.html
 /build/
+node_modules/
