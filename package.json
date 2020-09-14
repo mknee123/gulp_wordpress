@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mknee123/gulp_wordpress#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.12",
     "es6-promise": "^4.2.4",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
